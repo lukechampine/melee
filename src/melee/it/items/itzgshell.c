@@ -136,3 +136,18 @@ void it_802DFFA0(Item_GObj* gobj)
 /// #it_802DFFB8
 
 /// #it_802E0100
+
+ItemStateTable it_803F86C8[] = {
+    { 0, it_802DE190, it_802DE198, it_802DE1FC },
+    { 0, it_802DE35C, it_802DE3D8, it_802DE408 },
+    { 0, it_802DE490, it_802DE498, NULL },
+    { 1, it_802DE544, it_802DE5EC, it_802DE61C },
+    { 1, it_802DE670, it_802DE694, it_802DE6C4 },
+    { 1, it_802DE884, it_802DEA0C, it_802DEB44 },
+    { 0, it_802DE884, it_802DEA0C, it_802DEB44 },
+    { 1, it_802DEE04, it_802DEE98, it_802DEEC8 },
+    { 0, it_802DEE04, it_802DEE98, it_802DEEC8 },
+    { 0, it_802DEF78, it_802DEF80, it_802DF104 },
+    { 2, it_802DFA68, it_802DFB90, it_802DFBAC },
+    { 3, it_802DF724, it_802DF93C, it_802DF970 },
+};

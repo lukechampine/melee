@@ -127,3 +127,15 @@ void it_802B8FF8(Item_GObj* gobj)
 /// #it_802BACC4
 
 /// #it_802BAEA0
+
+ItemStateTable it_803F73A8[] = {
+    { -1, NULL, it_802B8048, NULL },
+    { -1, NULL, it_802B8370, NULL },
+    { -1, NULL, it_802B8510, NULL },
+    { -1, NULL, it_802B8670, NULL },
+    { -1, NULL, it_802B8800, NULL },
+    { -1, NULL, it_802B8948, NULL },
+    { -1, NULL, it_802B8B40, NULL },
+    { -1, NULL, it_802B8D24, NULL },
+    { -1, NULL, it_802B8FF8, NULL },
+};

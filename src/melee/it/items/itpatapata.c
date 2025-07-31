@@ -1,3 +1,4 @@
+#include "itpatapata.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -5,7 +6,7 @@
 
 /// #it_802E0678
 
-bool it_802E06B4(void)
+bool it_802E06B4(Item_GObj* gobj)
 {
     return false;
 }
@@ -34,13 +35,13 @@ bool it_802E06B4(void)
 
 /// #it_802E0F98
 
-void it_802E0FE0(void) {}
+void it_802E0FE0(Item_GObj* gobj) {}
 
 /// #it_802E0FE4
 
 /// #it_802E1040
 
-void it_802E10A0(void) {}
+void it_802E10A0(Item_GObj* gobj) {}
 
 /// #it_802E10A4
 
@@ -69,3 +70,14 @@ void it_802E10A0(void) {}
 /// #it_802E16D8
 
 /// #it_802E16F8
+
+ItemStateTable it_803F88C0[] = {
+    { 0, NULL, NULL, NULL },
+    { 1, it_802E06B4, it_802E06BC, it_802E06F8 },
+    { 1, it_802E0974, it_802E09BC, it_802E0B78 },
+    { 2, it_802E0E10, it_802E09BC, it_802E0B78 },
+    { -1, it_802E13EC, it_802E1498, it_802E1578 },
+    { 3, it_802E0F98, it_802E0FE0, NULL },
+    { 4, it_802E1128, it_802E1170, it_802E11A0 },
+    { 1, it_802E1040, it_802E10A0, it_802E10A4 },
+};

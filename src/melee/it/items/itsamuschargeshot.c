@@ -1,3 +1,4 @@
+#include "itsamuschargeshot.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -19,9 +20,9 @@
 
 /// #it_802B5A98
 
-void it_802B5CB0(void) {}
+void it_802B5CB0(Item_GObj* gobj) {}
 
-bool it_802B5CB4(void)
+bool it_802B5CB4(Item_GObj* gobj)
 {
     return false;
 }
@@ -64,3 +65,15 @@ void it_802B62B0(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F7288[] = {
+    { 0, it_802B5A98, it_802B5CB0, it_802B5CB4 },
+    { 1, it_802B5D54, it_802B5E50, it_802B5EA0 },
+    { 2, it_802B5D54, it_802B5E50, it_802B5EA0 },
+    { 3, it_802B5D54, it_802B5E50, it_802B5EA0 },
+    { 4, it_802B5D54, it_802B5E50, it_802B5EA0 },
+    { 5, it_802B5D54, it_802B5E50, it_802B5EA0 },
+    { 6, it_802B5D54, it_802B5E50, it_802B5EA0 },
+    { 7, it_802B5D54, it_802B5E50, it_802B5EA0 },
+    { 8, it_802B5D54, it_802B5E50, it_802B5EA0 },
+};

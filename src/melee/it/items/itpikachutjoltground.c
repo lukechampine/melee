@@ -46,3 +46,8 @@ void it_802B37F0(Item_GObj* gobj)
 /// #it_802B3D70
 
 /// #it_802B3EDC
+
+ItemStateTable it_803F7190[] = {
+    { 0, it_802B3680, it_802B3790, it_802B3808 },
+    { 1, it_802B36BC, it_802B37F0, it_802B397C },
+};

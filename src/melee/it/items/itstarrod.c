@@ -1,3 +1,4 @@
+#include "itstarrod.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -11,18 +12,18 @@
 
 /// #it_802923F8
 
-bool it_80292450(void)
+bool it_80292450(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_80292458(void) {}
+void it_80292458(Item_GObj* gobj) {}
 
 /// #it_8029245C
 
 /// #it_80292488
 
-bool it_802924B0(void)
+bool it_802924B0(Item_GObj* gobj)
 {
     return false;
 }
@@ -33,12 +34,12 @@ bool it_802924B0(void)
 
 /// #it_80292514
 
-bool it_8029253C(void)
+bool it_8029253C(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_80292544(void) {}
+void it_80292544(Item_GObj* gobj) {}
 
 /// #it_80292548
 
@@ -54,12 +55,12 @@ void it_80292544(void) {}
 
 /// #it_802926A8
 
-bool it_802926D0(void)
+bool it_802926D0(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_802926D8(void) {}
+void it_802926D8(Item_GObj* gobj) {}
 
 /// #it_802926DC
 
@@ -75,3 +76,12 @@ void it_802927C8(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F5F90[] = {
+    { -1, it_80292450, it_80292458, it_8029245C },
+    { -1, it_802924B0, it_802924B8, it_802924E8 },
+    { -1, it_8029253C, it_80292544, NULL },
+    { 0, it_802924B0, it_802925DC, it_80292628 },
+    { 0, it_802924B0, it_802925DC, it_80292570 },
+    { -1, it_802926D0, it_802926D8, it_802926DC },
+};

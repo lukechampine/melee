@@ -1,3 +1,4 @@
+#include "itevyoshiegg.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -11,18 +12,18 @@
 
 /// #it_8029B1D8
 
-bool it_8029B230(void)
+bool it_8029B230(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_8029B238(void) {}
+void it_8029B238(Item_GObj* gobj) {}
 
 /// #it_8029B23C
 
 /// #it_8029B268
 
-bool it_8029B290(void)
+bool it_8029B290(Item_GObj* gobj)
 {
     return false;
 }
@@ -33,12 +34,12 @@ bool it_8029B290(void)
 
 /// #it_8029B2F4
 
-bool it_8029B31C(void)
+bool it_8029B31C(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_8029B324(void) {}
+void it_8029B324(Item_GObj* gobj) {}
 
 /// #it_8029B328
 
@@ -50,9 +51,9 @@ void it_8029B324(void) {}
 
 /// #it_8029B400
 
-void it_8029B460(void) {}
+void it_8029B460(Item_GObj* gobj) {}
 
-bool it_8029B464(void)
+bool it_8029B464(Item_GObj* gobj)
 {
     return false;
 }
@@ -69,12 +70,12 @@ bool it_8029B464(void)
 
 /// #it_8029B670
 
-bool it_8029B698(void)
+bool it_8029B698(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_8029B6A0(void) {}
+void it_8029B6A0(Item_GObj* gobj) {}
 
 /// #it_8029B6A4
 
@@ -82,3 +83,12 @@ void it_8029B6D8(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F6728[] = {
+    { -1, it_8029B230, it_8029B238, it_8029B23C },
+    { -1, it_8029B290, it_8029B298, it_8029B2C8 },
+    { -1, it_8029B31C, it_8029B324, NULL },
+    { 0, it_8029B290, it_8029B370, it_8029B3BC },
+    { -1, it_8029B698, it_8029B6A0, it_8029B6A4 },
+    { -1, it_8029B400, it_8029B460, it_8029B464 },
+};

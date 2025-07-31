@@ -1,3 +1,4 @@
+#include "itleadead.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -7,7 +8,7 @@
 
 /// #it_802E8F24
 
-bool it_802E8F7C(void)
+bool it_802E8F7C(Item_GObj* gobj)
 {
     return false;
 }
@@ -26,7 +27,7 @@ bool it_802E8F7C(void)
 
 /// #it_802E9308
 
-bool it_802E9354(void)
+bool it_802E9354(Item_GObj* gobj)
 {
     return false;
 }
@@ -57,7 +58,7 @@ bool it_802E9354(void)
 
 /// #it_802E98E0
 
-bool it_802E9948(void)
+bool it_802E9948(Item_GObj* gobj)
 {
     return false;
 }
@@ -70,7 +71,7 @@ bool it_802E9948(void)
 
 /// #it_802E9A38
 
-void it_802E9B60(void) {}
+void it_802E9B60(Item_GObj* gobj) {}
 
 /// #it_802E9B64
 
@@ -78,13 +79,13 @@ void it_802E9B60(void) {}
 
 /// #it_802E9BE4
 
-void it_802E9D10(void) {}
+void it_802E9D10(Item_GObj* gobj) {}
 
 /// #it_802E9D14
 
 /// #it_802E9D50
 
-bool it_802E9D94(void)
+bool it_802E9D94(Item_GObj* gobj)
 {
     return false;
 }
@@ -95,16 +96,16 @@ bool it_802E9D94(void)
 
 /// #it_802E9F28
 
-void it_802EA004(void) {}
+void it_802EA004(Item_GObj* gobj) {}
 
-bool it_802EA008(void)
+bool it_802EA008(Item_GObj* gobj)
 {
     return false;
 }
 
 /// #it_802EA010
 
-void it_802EA0A0(void) {}
+void it_802EA0A0(Item_GObj* gobj) {}
 
 /// #it_802EA0A4
 
@@ -112,7 +113,7 @@ void it_802EA0A0(void) {}
 
 /// #it_802EA108
 
-void it_802EA150(void) {}
+void it_802EA150(Item_GObj* gobj) {}
 
 /// #it_802EA154
 
@@ -126,18 +127,18 @@ void it_802EA150(void) {}
 
 /// #it_802EA2A0
 
-bool it_802EA308(void)
+bool it_802EA308(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_802EA310(void) {}
+void it_802EA310(Item_GObj* gobj) {}
 
 /// #it_802EA314
 
 /// #it_802EA334
 
-bool it_802EA394(void)
+bool it_802EA394(Item_GObj* gobj)
 {
     return false;
 }
@@ -146,7 +147,7 @@ bool it_802EA394(void)
 
 /// #it_802EA3B8
 
-bool it_802EA3D8(void)
+bool it_802EA3D8(Item_GObj* gobj)
 {
     return false;
 }
@@ -176,3 +177,24 @@ bool it_802EA3D8(void)
 /// #it_802EADD8
 
 /// #it_802EAE80
+
+ItemStateTable it_803F8EB0[] = {
+    { 0, NULL, NULL, NULL },
+    { -1, it_802E8F7C, it_802E8F84, it_802E8FFC },
+    { 1, it_802E90E8, it_802E91AC, it_802E92A0 },
+    { 2, it_802E9BE4, it_802E9D10, it_802E9D14 },
+    { 3, it_802E9D94, it_802E9D9C, it_802E9DE8 },
+    { 4, it_802E9F28, it_802EA004, it_802EA008 },
+    { 5, it_802EA010, it_802EA0A0, it_802EA0A4 },
+    { 6, it_802E9780, it_802E9850, it_802E98A4 },
+    { -1, it_802E9948, it_802E9950, it_802E99C4 },
+    { 7, it_802E9A38, it_802E9B60, it_802E9B64 },
+    { 1, it_802E9354, it_802E935C, it_802E938C },
+    { -1, it_802E959C, it_802E9674, it_802E969C },
+    { -1, it_802E9624, it_802E9674, it_802E969C },
+    { 8, it_802EA108, it_802EA150, NULL },
+    { 9, it_802EA204, it_802EA24C, it_802EA27C },
+    { -1, it_802EA308, it_802EA310, it_802EA314 },
+    { -1, it_802EA394, it_802EA39C, it_802EA3B8 },
+    { -1, it_802EA3D8, it_802EA3E0, it_802EA3FC },
+};

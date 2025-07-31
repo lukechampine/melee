@@ -1,3 +1,4 @@
+#include "itkoopaflame.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -24,3 +25,7 @@ void it_802AD458(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F6C58[] = {
+    { 0, it_802ACF9C, it_802AD160, it_802AD1E4 },
+};

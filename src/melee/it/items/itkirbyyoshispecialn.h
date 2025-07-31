@@ -12,4 +12,7 @@
 /* 2F2E7C */ void it_802F2E7C(Item_GObj* gobj, bool has_destroy_type);
 /* 3F9490 */ extern ItemStateTable it_803F9490[];
 
+/* 2F2E68 */ bool it_802F2E68(Item_GObj* gobj);
+/* 2F2E70 */ void it_802F2E70(Item_GObj* gobj);
+/* 2F2E74 */ bool it_802F2E74(Item_GObj* gobj);
 #endif

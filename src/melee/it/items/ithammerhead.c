@@ -1,3 +1,4 @@
+#include "ithammerhead.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -13,12 +14,12 @@
 
 /// #it_80299DD0
 
-bool it_80299E1C(void)
+bool it_80299E1C(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_80299E24(void) {}
+void it_80299E24(Item_GObj* gobj) {}
 
 /// #it_80299E28
 
@@ -36,7 +37,7 @@ void it_80299E24(void) {}
 
 /// #it_8029A000
 
-void it_8029A080(void) {}
+void it_8029A080(Item_GObj* gobj) {}
 
 /// #it_8029A084
 
@@ -66,3 +67,10 @@ void it_8029A0F4(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F6640[] = {
+    { -1, it_80299E9C, it_80299F1C, it_80299F68 },
+    { -1, it_80299E1C, it_80299E24, NULL },
+    { 0, it_80299E9C, it_80299F1C, it_80299F68 },
+    { -1, it_8029A000, it_8029A080, it_8029A084 },
+};

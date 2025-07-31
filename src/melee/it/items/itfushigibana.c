@@ -1,3 +1,4 @@
+#include "itfushigibana.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -17,13 +18,13 @@
 
 /// #it_802D71E8
 
-void it_802D72E4(void) {}
+void it_802D72E4(Item_GObj* gobj) {}
 
 /// #it_802D72E8
 
 /// #it_802D7328
 
-bool it_802D736C(void)
+bool it_802D736C(Item_GObj* gobj)
 {
     return false;
 }
@@ -31,3 +32,9 @@ bool it_802D736C(void)
 /// #it_802D7374
 
 /// #it_802D73A4
+
+ItemStateTable it_803F82F0[] = {
+    { 0, it_802D7120, it_802D7144, it_802D7164 },
+    { 1, it_802D71E8, it_802D72E4, it_802D72E8 },
+    { -1, it_802D736C, it_802D7374, it_802D73A4 },
+};

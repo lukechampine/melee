@@ -110,3 +110,7 @@ bool it_802C6B20(Item_GObj* item_gobj) {
 void it_802C6C18(Item_GObj* item_gobj, Item_GObj* ref_gobj) {
     it_8026B894(item_gobj, ref_gobj);
 }
+
+ItemStateTable it_803F78E8[] = {
+    { 0, it_802C6B20, NULL, NULL },
+};

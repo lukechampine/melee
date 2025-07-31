@@ -1,3 +1,4 @@
+#include "itclimbersblizzard.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -177,3 +178,7 @@ Item_GObj* it_802C2144(Item_GObj* gobj, Vec3* pos, f32 facing_dir)
     }
     return spawned;
 }
+
+ItemStateTable it_803F76A8[] = {
+    { 0, it_802C2380, it_802C23B4, it_802C23D4 },
+};

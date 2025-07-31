@@ -1,3 +1,4 @@
+#include "itgshell.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -17,12 +18,12 @@
 
 /// #it_8028BE54
 
-bool it_8028BEE8(void)
+bool it_8028BEE8(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_8028BEF0(void) {}
+void it_8028BEF0(Item_GObj* gobj) {}
 
 /// #it_8028BEF4
 
@@ -36,12 +37,12 @@ void it_8028BEF0(void) {}
 
 /// #it_8028C148
 
-bool it_8028C1A0(void)
+bool it_8028C1A0(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_8028C1A8(void) {}
+void it_8028C1A8(Item_GObj* gobj) {}
 
 /// #it_8028C1AC
 
@@ -77,12 +78,12 @@ void it_8028C1A8(void) {}
 
 /// #it_8028CB24
 
-bool it_8028CB70(void)
+bool it_8028CB70(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_8028CB78(void) {}
+void it_8028CB78(Item_GObj* gobj) {}
 
 /// #it_8028CB7C
 
@@ -104,3 +105,16 @@ void it_8028CFC0(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F5BA8[] = {
+    { -1, it_8028BEE8, it_8028BEF0, it_8028BEF4 },
+    { -1, it_8028C054, it_8028C0D0, it_8028C100 },
+    { -1, it_8028C1A0, it_8028C1A8, NULL },
+    { 0, it_8028C1FC, it_8028C2A4, it_8028C2D4 },
+    { 0, it_8028C328, it_8028C34C, it_8028C37C },
+    { 0, it_8028C52C, it_8028C6E4, it_8028C75C },
+    { -1, it_8028C52C, it_8028C6E4, it_8028C75C },
+    { 0, it_8028CA14, it_8028CAC8, it_8028CAF8 },
+    { -1, it_8028CA14, it_8028CAC8, it_8028CAF8 },
+    { -1, it_8028CB70, it_8028CB78, it_8028CB7C },
+};

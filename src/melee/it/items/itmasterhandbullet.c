@@ -1,3 +1,4 @@
+#include "itmasterhandbullet.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -99,7 +100,7 @@ bool it_802F0E70(Item_GObj* gobj)
     return false;
 }
 
-void it_802F0ED4(void) {}
+void it_802F0ED4(Item_GObj* gobj) {}
 
 void it_802F0F08(Item_GObj* gobj) {}
 
@@ -138,3 +139,8 @@ bool it_802F0F64(Item_GObj* gobj)
 {
     return true;
 }
+
+ItemStateTable it_803F9388[] = {
+    { 0, it_802F0E70, it_802F0ED4, it_802F0ED8 },
+    { 1, it_802F0E70, it_802F0ED4, it_802F0ED8 },
+};

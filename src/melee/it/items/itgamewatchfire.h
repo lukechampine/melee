@@ -12,4 +12,5 @@
 /*        */ bool ftGw_AttackS4_ItemCheckTorchRemove(HSD_GObj*);
 /* 3F78E8 */ extern ItemStateTable it_803F78E8[];
 
+/* 2C6B20 */ bool it_802C6B20(Item_GObj* gobj);
 #endif

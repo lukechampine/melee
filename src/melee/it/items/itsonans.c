@@ -1,6 +1,7 @@
 
 /// #it_802CD44C
 
+#include "itsonans.h"
 void it_802CD4D8(void) {}
 
 /// #it_802CD4DC
@@ -32,3 +33,9 @@ void it_802CD4D8(void) {}
 /// #it_802CDB30
 
 /// #it_802CDBB8
+
+ItemStateTable it_803F7CA0[] = {
+    { 0, it_802CD8E4, it_802CD954, it_802CD974 },
+    { 1, it_802CDA0C, it_802CDA3C, it_802CDA5C },
+    { -1, it_802CDB0C, it_802CDB30, it_802CDBB8 },
+};

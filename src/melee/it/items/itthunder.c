@@ -1,3 +1,4 @@
+#include "itthunder.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -21,7 +22,7 @@ void it_802CCB10(void) {}
 
 /// #it_802CCD9C
 
-bool it_802CCE20(void)
+bool it_802CCE20(Item_GObj* gobj)
 {
     return false;
 }
@@ -33,3 +34,9 @@ bool it_802CCE20(void)
 /// #it_802CCEC0
 
 /// #it_802CCF74
+
+ItemStateTable it_803F7C40[] = {
+    { 0, it_802CCE9C, it_802CCEC0, it_802CCF74 },
+    { 1, it_802CCB34, it_802CCBAC, it_802CCBCC },
+    { 2, it_802CCCC4, it_802CCD9C, it_802CCE20 },
+};

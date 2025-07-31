@@ -10,7 +10,7 @@
 
 /// #it_802E1930
 
-bool it_802E1968(void)
+bool it_802E1968(Item_GObj* gobj)
 {
     return false;
 }
@@ -23,14 +23,14 @@ bool it_802E1968(void)
 
 /// #it_802E1C84
 
-bool it_802E1D24(void)
+bool it_802E1D24(Item_GObj* gobj)
 {
     return false;
 }
 
 /// #it_802E1D2C
 
-bool it_802E1E54(void)
+bool it_802E1E54(Item_GObj* gobj)
 {
     return false;
 }
@@ -39,28 +39,28 @@ bool it_802E1E54(void)
 
 /// #it_802E1E94
 
-bool it_802E1F2C(void)
+bool it_802E1F2C(Item_GObj* gobj)
 {
     return false;
 }
 
 /// #it_802E1F34
 
-bool it_802E20D0(void)
+bool it_802E20D0(Item_GObj* gobj)
 {
     return false;
 }
 
 /// #it_802E20D8
 
-bool it_802E2148(void)
+bool it_802E2148(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_802E2150(void) {}
+void it_802E2150(Item_GObj* gobj) {}
 
-bool it_802E2154(void)
+bool it_802E2154(Item_GObj* gobj)
 {
     return false;
 }
@@ -73,3 +73,11 @@ void it_802E2450(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F8940[] = {
+    { 0, it_802E1968, it_802E1970, it_802E19FC },
+    { 1, it_802E1968, it_802E1970, it_802E19FC },
+    { 2, it_802E1D24, it_802E1D2C, it_802E1E54 },
+    { 3, it_802E2148, it_802E2150, it_802E2154 },
+    { 2, it_802E1F2C, it_802E1F34, it_802E20D0 },
+};

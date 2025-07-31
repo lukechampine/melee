@@ -31,7 +31,7 @@ int it_802960CC(Item_GObj* gobj)
 
 /// #it_802964A4
 
-void it_802964F8(void) {}
+void it_802964F8(Item_GObj* gobj) {}
 
 /// #it_802964FC
 
@@ -47,7 +47,7 @@ void it_802964F8(void) {}
 
 /// #it_80296898
 
-void it_802968D4(void) {}
+void it_802968D4(Item_GObj* gobj) {}
 
 /// #it_802968D8
 
@@ -83,9 +83,9 @@ void it_802968D4(void) {}
 
 /// #it_80297674
 
-void it_80297784(void) {}
+void it_80297784(Item_GObj* gobj) {}
 
-bool it_80297788(void)
+bool it_80297788(Item_GObj* gobj)
 {
     return false;
 }
@@ -116,3 +116,16 @@ void it_802978BC(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F63C0[] = {
+    { -1, it_802964A4, it_802964F8, it_802964FC },
+    { -1, it_802966D0, it_80296724, it_80296754 },
+    { -1, it_80296898, it_802968D4, NULL },
+    { 1, it_80296A70, it_80296AC4, it_80296C48 },
+    { 1, it_80297368, it_802973BC, it_802975D4 },
+    { 1, it_80296F94, it_80296FE8, it_80297154 },
+    { 2, it_80296A70, it_80296AC4, it_80296C48 },
+    { 2, it_80297368, it_802973BC, it_802975D4 },
+    { 2, it_80296F94, it_80296FE8, it_80297154 },
+    { 3, it_80297674, it_80297784, it_80297788 },
+};

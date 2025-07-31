@@ -14,11 +14,11 @@
 /* 2B34E4 */ void it_802B34E4(Item_GObj*);
 /* 2B3544 */ void it_802B3544(Item_GObj* gobj);
 /* 2B3554 */ UNK_RET it_802B3554(UNK_PARAMS);
-/* 2B3680 */ UNK_RET it_802B3680(UNK_PARAMS);
-/* 2B36BC */ UNK_RET it_802B36BC(UNK_PARAMS);
-/* 2B3790 */ UNK_RET it_802B3790(UNK_PARAMS);
-/* 2B3808 */ UNK_RET it_802B3808(UNK_PARAMS);
-/* 2B397C */ UNK_RET it_802B397C(UNK_PARAMS);
+/* 2B3680 */ bool it_802B3680(Item_GObj* gobj);
+/* 2B36BC */ bool it_802B36BC(Item_GObj* gobj);
+/* 2B3790 */ void it_802B3790(Item_GObj* gobj);
+/* 2B3808 */ bool it_802B3808(Item_GObj* gobj);
+/* 2B397C */ bool it_802B397C(Item_GObj* gobj);
 /* 2B3A94 */ bool it_802B3A94(Item_GObj*);
 /* 2B3AF8 */ bool it_802B3AF8(Item_GObj*);
 /* 2B3C44 */ bool it_802B3C44(Item_GObj*);
@@ -28,4 +28,5 @@
 /* 2B3EDC */ void it_802B3EDC(Item_GObj*, Item_GObj*);
 /* 3F7190 */ extern ItemStateTable it_803F7190[];
 
+/* 2B37F0 */ void it_802B37F0(Item_GObj* gobj);
 #endif

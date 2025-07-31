@@ -1,3 +1,4 @@
+#include "itnesspkfire.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -35,3 +36,7 @@ void it_802AA474(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F6B28[] = {
+    { 0, it_802AA22C, NULL, it_802AA264 },
+};

@@ -111,9 +111,9 @@ bool it_802F04F0(Item_GObj* gobj)
     return false;
 }
 
-void it_802F059C(void) {}
+void it_802F059C(Item_GObj* gobj) {}
 
-bool it_802F05A0(void)
+bool it_802F05A0(Item_GObj* gobj)
 {
     return false;
 }
@@ -190,3 +190,7 @@ void it_802F063C(Item_GObj* gobj, Item_GObj* arg1)
         HSD_JObjSetTranslate(ip->xBBC_dynamicBoneTable->bones[2], &translate);
     }
 }
+
+ItemStateTable it_803F9378[] = {
+    { 0, it_802F04F0, it_802F059C, it_802F05A0 },
+};

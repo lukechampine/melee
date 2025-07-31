@@ -18,4 +18,5 @@
 /* 2C8018 */ void it_802C8018(Item_GObj*, Item_GObj*);
 /* 3F79A0 */ extern ItemStateTable it_803F79A0[];
 
+/* 2C7FAC */ bool it_802C7FAC(Item_GObj* gobj);
 #endif

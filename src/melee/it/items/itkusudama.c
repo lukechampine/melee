@@ -1,3 +1,4 @@
+#include "itkusudama.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -23,13 +24,13 @@
 
 /// #it_8028A298
 
-void it_8028A2C0(void) {}
+void it_8028A2C0(Item_GObj* gobj) {}
 
 /// #it_8028A2C4
 
 /// #it_8028A2F0
 
-void it_8028A3A4(void) {}
+void it_8028A3A4(Item_GObj* gobj) {}
 
 /// #it_8028A3A8
 
@@ -45,22 +46,22 @@ void it_8028A3A4(void) {}
 
 /// #it_8028A690
 
-void it_8028A7F0(void) {}
+void it_8028A7F0(Item_GObj* gobj) {}
 
 /// #it_8028A7F4
 
 /// #it_8028A93C
 
-bool it_8028A964(void)
+bool it_8028A964(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_8028A96C(void) {}
+void it_8028A96C(Item_GObj* gobj) {}
 
 /// #it_8028A970
 
-bool it_8028A9AC(void)
+bool it_8028A9AC(Item_GObj* gobj)
 {
     return false;
 }
@@ -77,9 +78,9 @@ bool it_8028A9AC(void)
 
 /// #it_8028AD18
 
-void it_8028AD38(void) {}
+void it_8028AD38(Item_GObj* gobj) {}
 
-bool it_8028AD3C(void)
+bool it_8028AD3C(Item_GObj* gobj)
 {
     return false;
 }
@@ -88,9 +89,9 @@ bool it_8028AD3C(void)
 
 /// #it_8028ADD4
 
-void it_8028AE98(void) {}
+void it_8028AE98(Item_GObj* gobj) {}
 
-bool it_8028AE9C(void)
+bool it_8028AE9C(Item_GObj* gobj)
 {
     return false;
 }
@@ -109,3 +110,15 @@ void it_8028B06C(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F59F8[] = {
+    { -1, it_8028A298, it_8028A2C0, it_8028A2C4 },
+    { 0, it_8028A2F0, it_8028A3A4, it_8028A3A8 },
+    { -1, it_8028A4C0, it_8028A4E8, it_8028A518 },
+    { 1, it_8028A690, it_8028A7F0, it_8028A7F4 },
+    { -1, it_8028A964, it_8028A96C, NULL },
+    { 2, it_8028A9AC, it_8028A9B4, it_8028AA00 },
+    { 2, it_8028A9AC, it_8028A9B4, it_8028AB64 },
+    { 3, it_8028AD18, it_8028AD38, it_8028AD3C },
+    { 4, it_8028ADD4, it_8028AE98, it_8028AE9C },
+};

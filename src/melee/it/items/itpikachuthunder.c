@@ -50,3 +50,9 @@ bool it_802B2520(Item_GObj* arg0)
 }
 
 /// #it_802B2528
+
+ItemStateTable it_803F70C8[] = {
+    { -1, it_802B20DC, NULL, NULL },
+    { 0, it_802B21A8, NULL, it_802B21E0 },
+    { 0, it_802B2340, NULL, NULL },
+};

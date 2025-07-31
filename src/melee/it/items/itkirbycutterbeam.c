@@ -1,3 +1,4 @@
+#include "itkirbycutterbeam.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -43,3 +44,7 @@ void it_8029C4B4(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F6798[] = {
+    { 0, it_8029BC88, it_8029BCA8, it_8029BDD4 },
+};

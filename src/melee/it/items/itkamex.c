@@ -1,3 +1,4 @@
+#include "itkamex.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -68,3 +69,10 @@ bool it_802CADC8(Item_GObj* arg0)
 /// #it_802CAE94
 
 /// #it_802CAFB4
+
+ItemStateTable it_803F7B08[] = {
+    { 0, it_802CA5D8, it_802CA618, it_802CA654 },
+    { 1, it_802CA724, it_802CA7FC, it_802CA890 },
+    { 2, it_802CA984, it_802CA9B8, it_802CA9F4 },
+    { -1, it_802CAAA4, it_802CAAC8, it_802CAAE8 },
+};

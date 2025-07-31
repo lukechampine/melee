@@ -5,9 +5,6 @@
 #include "it/inlines.h"
 #include "it/it_26B1.h"
 
-/* 2AB29C */ static bool it_802AB29C(void);
-/* 2AB2A4 */ static bool it_802AB2A4(void);
-
 Fighter_GObj* it_802AA7E4(Item_GObj* gobj)
 {
     return GET_ITEM(gobj)->owner;
@@ -54,12 +51,12 @@ void it_802AB140(Item_GObj* gobj)
 
 /// #it_802AB158
 
-bool it_802AB29C(void)
+bool it_802AB29C(Item_GObj* gobj)
 {
     return false;
 }
 
-bool it_802AB2A4(void)
+bool it_802AB2A4(Item_GObj* gobj)
 {
     return false;
 }
@@ -80,3 +77,9 @@ void it_802AB3D0(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F6B70[] = {
+    { 0, it_802AAB70, it_802AAFDC, it_802AB158 },
+    { 1, it_802AAD48, it_802AB128, it_802AB29C },
+    { 2, it_802AAEE4, it_802AB140, it_802AB2A4 },
+};

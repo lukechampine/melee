@@ -368,7 +368,7 @@ bool it_802A0FB0(Item_GObj* gobj)
     return it_802A0C34(gobj);
 }
 
-f32 it_802A0FD0(Item_GObj* gobj)
+void it_802A0FD0(Item_GObj* gobj)
 {
     Item* ip;
     f32 angle;
@@ -388,10 +388,9 @@ f32 it_802A0FD0(Item_GObj* gobj)
         angle = sinf(ip->xDD4_itemVar.linkboomerang.xF74);
         ip->x40_vel.y = var_f31 * angle;
     }
-    return angle;
 }
 
-void it_802A10C0(Item_GObj* gobj)
+bool it_802A10C0(Item_GObj* gobj)
 {
     it_802A16E4(gobj);
 }
@@ -422,7 +421,7 @@ bool it_802A12DC(Item_GObj* gobj)
 }
 
 // NOTE: identical to it_802A0FD0
-f32 it_802A12FC(Item_GObj* gobj)
+void it_802A12FC(Item_GObj* gobj)
 {
     Item* ip;
     f32 angle;
@@ -442,7 +441,6 @@ f32 it_802A12FC(Item_GObj* gobj)
         angle = sinf(ip->xDD4_itemVar.linkboomerang.xF74);
         ip->x40_vel.y = var_f31 * angle;
     }
-    return angle;
 }
 
 static void clamp_pi_tau(f32* angle)
@@ -644,7 +642,7 @@ void it_802A1D60_sub(Item_GObj* gobj, f32 angle)
     }
 }
 
-void it_802A1D60(Item_GObj* gobj, Fighter_Part part)
+void it_802A1D60(Item_GObj* gobj)
 {
     Item* ip;
     f32 length;
@@ -780,3 +778,10 @@ void it_802A23CC(Item_GObj* gobj, HSD_GObj* arg1)
         ip->xDD4_itemVar.linkboomerang.xF98 = NULL;
     }
 }
+
+ItemStateTable it_803F6920[] = {
+    { -1, it_802A0F08, NULL, NULL },
+    { 0, it_802A0FB0, it_802A0FD0, it_802A10C0 },
+    { 1, it_802A12DC, it_802A12FC, it_802A16E4 },
+    { 2, it_802A1C30, it_802A1D60, NULL },
+};

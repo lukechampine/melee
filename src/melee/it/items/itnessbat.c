@@ -1,3 +1,4 @@
+#include "itnessbat.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -13,18 +14,18 @@
 
 /// #it_802AD768
 
-void it_802AD8D0(void) {}
+void it_802AD8D0(Item_GObj* gobj) {}
 
-bool it_802AD8D4(void)
+bool it_802AD8D4(Item_GObj* gobj)
 {
     return false;
 }
 
 /// #it_802AD8DC
 
-void it_802AD9F0(void) {}
+void it_802AD9F0(Item_GObj* gobj) {}
 
-bool it_802AD9F4(void)
+bool it_802AD9F4(Item_GObj* gobj)
 {
     return false;
 }
@@ -33,3 +34,8 @@ void it_802AD9FC(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F6C68[] = {
+    { 0, it_802AD768, it_802AD8D0, it_802AD8D4 },
+    { -1, it_802AD8DC, it_802AD9F0, it_802AD9F4 },
+};

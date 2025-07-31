@@ -1,3 +1,4 @@
+#include "itclimbersice.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -17,13 +18,13 @@
 
 /// #it_802C198C
 
-void it_802C1A14(void) {}
+void it_802C1A14(Item_GObj* gobj) {}
 
 /// #it_802C1A18
 
 /// #it_802C1A58
 
-bool it_802C1A80(void)
+bool it_802C1A80(Item_GObj* gobj)
 {
     return false;
 }
@@ -70,3 +71,10 @@ bool it_802C20E4(Item_GObj* arg0)
 /// #it_802C20EC
 
 /// #it_802C210C
+
+ItemStateTable it_803F7668[] = {
+    { -1, it_802C198C, it_802C1A14, it_802C1A18 },
+    { -1, it_802C1A80, it_802C1A88, it_802C1AB8 },
+    { 0, it_802C1B80, it_802C1BB4, it_802C1C7C },
+    { 0, it_802C1D80, it_802C1DB4, it_802C1E94 },
+};

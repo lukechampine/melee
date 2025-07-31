@@ -21,4 +21,16 @@
 /* 2953A8 */ void it_802953A8(Item_GObj*, HSD_GObj*);
 /* 3F6270 */ extern ItemStateTable it_803F6270[];
 
+/* 295188 */ bool it_80295188(Item_GObj* gobj);
+/* 295190 */ void it_80295190(Item_GObj* gobj);
+/* 295194 */ bool it_80295194(Item_GObj* gobj);
+/* 2951E8 */ bool it_802951E8(Item_GObj* gobj);
+/* 2951F0 */ void it_802951F0(Item_GObj* gobj);
+/* 295220 */ bool it_80295220(Item_GObj* gobj);
+/* 295290 */ bool it_80295290(Item_GObj* gobj);
+/* 2952DC */ void it_802952DC(Item_GObj* gobj);
+/* 29530C */ bool it_8029530C(Item_GObj* gobj);
+/* 295368 */ bool it_80295368(Item_GObj* gobj);
+/* 295370 */ void it_80295370(Item_GObj* gobj);
+/* 295374 */ bool it_80295374(Item_GObj* gobj);
 #endif

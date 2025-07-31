@@ -1,3 +1,4 @@
+#include "itmewtwodisable.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -15,7 +16,7 @@
 
 /// #it_802C4C08
 
-void it_802C4C3C(void) {}
+void it_802C4C3C(Item_GObj* gobj) {}
 
 /// #it_802C4C40
 
@@ -47,3 +48,7 @@ bool it_802C4CD0(Item_GObj* arg0)
 }
 
 /// #it_802C4CD8
+
+ItemStateTable it_803F7750[] = {
+    { 0, it_802C4C08, it_802C4C3C, it_802C4C40 },
+};

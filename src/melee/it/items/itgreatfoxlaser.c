@@ -35,3 +35,8 @@ bool it_802EB454(Item_GObj* item_gobj)
 /// #it_802EB45C
 
 /// #it_802EB5A8
+
+ItemStateTable it_803F8FD0[] = {
+    { 0, it_802EB2C0, it_802EB3C0, NULL },
+    { 1, it_802EB2C0, it_802EB3C0, NULL },
+};

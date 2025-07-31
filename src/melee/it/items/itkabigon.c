@@ -1,3 +1,4 @@
+#include "itkabigon.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -25,9 +26,9 @@ void it_802C9DFC(void) {}
 
 /// #it_802CA198
 
-void it_802CA318(void) {}
+void it_802CA318(Item_GObj* gobj) {}
 
-bool it_802CA31C(void)
+bool it_802CA31C(Item_GObj* gobj)
 {
     return false;
 }
@@ -41,3 +42,9 @@ bool it_802CA31C(void)
 /// #it_802CA3CC
 
 /// #it_802CA3F4
+
+ItemStateTable it_803F7AD8[] = {
+    { 0, it_802C9EF0, it_802C9F74, it_802C9FBC },
+    { 1, it_802CA198, it_802CA318, it_802CA31C },
+    { -1, it_802CA388, it_802CA3AC, it_802CA3CC },
+};

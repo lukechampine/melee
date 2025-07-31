@@ -13,4 +13,12 @@
 /* 3F8270 */ extern ItemStateTable it_803F8270[];
 /* 3F82A0 */ extern ItemStateTable it_803F82A0[];
 
+/* 2D5EC8 */ bool it_802D5EC8(Item_GObj* gobj);
+/* 2D5EEC */ void it_802D5EEC(Item_GObj* gobj);
+/* 2D5F0C */ bool it_802D5F0C(Item_GObj* gobj);
+/* 2D5FC8 */ bool it_802D5FC8(Item_GObj* gobj);
+/* 2D6084 */ void it_802D6084(Item_GObj* gobj);
+/* 2D60A4 */ bool it_802D60A4(Item_GObj* gobj);
+/* 2D60C8 */ bool it_802D60C8(Item_GObj* gobj);
+/* 2D60D0 */ void it_802D60D0(Item_GObj* gobj);
 #endif

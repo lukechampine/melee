@@ -66,3 +66,14 @@ void it_80290918(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F5E00[] = {
+    { -1, NULL, NULL, it_8028FF60 },
+    { -1, NULL, it_80290070, it_802900A0 },
+    { -1, NULL, NULL, NULL },
+    { 1, NULL, it_802901C0, it_8029020C },
+    { 0, NULL, NULL, it_80290404 },
+    { 0, NULL, it_80290560, it_802905AC },
+    { 2, it_802906C4, NULL, NULL },
+    { -1, NULL, NULL, it_802907BC },
+};

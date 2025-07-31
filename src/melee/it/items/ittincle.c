@@ -10,7 +10,7 @@
 
 /// #it_802EB6DC
 
-bool it_802EB808(void)
+bool it_802EB808(Item_GObj* gobj)
 {
     return false;
 }
@@ -21,7 +21,7 @@ bool it_802EB808(void)
 
 /// #it_802EB870
 
-bool it_802EB994(void)
+bool it_802EB994(Item_GObj* gobj)
 {
     return false;
 }
@@ -40,7 +40,7 @@ bool it_802EB994(void)
 
 /// #it_802EBD14
 
-bool it_802EBDC8(void)
+bool it_802EBDC8(Item_GObj* gobj)
 {
     return false;
 }
@@ -51,7 +51,7 @@ bool it_802EBDC8(void)
 
 /// #it_802EBE5C
 
-bool it_802EBF00(void)
+bool it_802EBF00(Item_GObj* gobj)
 {
     return false;
 }
@@ -62,7 +62,7 @@ bool it_802EBF00(void)
 
 /// #it_802EBFAC
 
-bool it_802EC0FC(void)
+bool it_802EC0FC(Item_GObj* gobj)
 {
     return false;
 }
@@ -77,13 +77,13 @@ bool it_802EC0FC(void)
 
 /// #it_802EC25C
 
-void it_802EC2E4(void) {}
+void it_802EC2E4(Item_GObj* gobj) {}
 
 /// #it_802EC2E8
 
 /// #it_802EC35C
 
-bool it_802EC390(void)
+bool it_802EC390(Item_GObj* gobj)
 {
     return false;
 }
@@ -96,7 +96,7 @@ bool it_802EC390(void)
 
 /// #it_802EC460
 
-void it_802EC4A0(void) {}
+void it_802EC4A0(Item_GObj* gobj) {}
 
 /// #it_802EC4A4
 
@@ -104,7 +104,7 @@ void it_802EC4A0(void) {}
 
 /// #it_802EC55C
 
-void it_802EC5D4(void) {}
+void it_802EC5D4(Item_GObj* gobj) {}
 
 /// #it_802EC5D8
 
@@ -112,13 +112,13 @@ void it_802EC5D4(void) {}
 
 /// #it_802EC62C
 
-void it_802EC66C(void) {}
+void it_802EC66C(Item_GObj* gobj) {}
 
 /// #it_802EC670
 
 /// #it_802EC69C
 
-bool it_802EC7A0(void)
+bool it_802EC7A0(Item_GObj* gobj)
 {
     return false;
 }
@@ -148,3 +148,19 @@ void it_802ECC98(Item_GObj* arg0, f32 arg1)
 }
 
 /// #it_802ECCA4
+
+ItemStateTable it_803F9000[] = {
+    { -1, it_802EB808, it_802EB810, it_802EB84C },
+    { 0, it_802EB994, it_802EB99C, it_802EB9D4 },
+    { 0, it_802EBAF0, it_802EBB38, it_802EBCD0 },
+    { 0, it_802EBDC8, it_802EBDD0, it_802EBE30 },
+    { 0, it_802EBF00, it_802EBF08, it_802EBF80 },
+    { 0, it_802EC0FC, it_802EC104, it_802EC168 },
+    { 1, it_802EC25C, it_802EC2E4, it_802EC2E8 },
+    { 2, it_802EC25C, it_802EC2E4, it_802EC2E8 },
+    { 3, it_802EC390, it_802EC398, it_802EC3C8 },
+    { 4, it_802EC460, it_802EC4A0, it_802EC4A4 },
+    { 5, it_802EC55C, it_802EC5D4, it_802EC5D8 },
+    { 6, it_802EC62C, it_802EC66C, it_802EC670 },
+    { 6, it_802EC7A0, it_802EC7A8, it_802EC80C },
+};

@@ -1,6 +1,8 @@
 #include <platform.h>
 #include <placeholder.h>
 
+#include "itsamusbomb.h"
+
 /// #it_802B4AC8
 
 /// #it_802B4BA0
@@ -9,7 +11,7 @@
 
 /// #it_802B4C38
 
-void it_802B4CC4(void) {}
+void it_802B4CC4(Item_GObj* gobj) {}
 
 /// #it_802B4CC8
 
@@ -46,3 +48,10 @@ void it_802B4CC4(void) {}
 /// #it_802B5478
 
 /// #it_802B54E4
+
+ItemStateTable it_803F7220[] = {
+    { 0, it_802B4C38, it_802B4CC4, it_802B4CC8 },
+    { 0, it_802B4D1C, it_802B4F1C, it_802B4F4C },
+    { 0, it_802B4FA0, it_802B51A0, it_802B5284 },
+    { 1, it_802B5458, NULL, NULL },
+};

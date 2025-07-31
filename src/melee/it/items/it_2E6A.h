@@ -19,4 +19,5 @@
 /* 2E709C */ void it_802E709C(Item_GObj*, HSD_GObj*);
 /* 3F8C8C */ extern ItemStateTable it_803F8C8C[];
 
+/* 2E6D60 */ void it_802E6D60(Item_GObj* gobj);
 #endif

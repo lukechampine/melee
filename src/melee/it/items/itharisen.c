@@ -1,3 +1,4 @@
+#include "itharisen.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -11,18 +12,18 @@
 
 /// #it_8029287C
 
-bool it_802928D4(void)
+bool it_802928D4(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_802928DC(void) {}
+void it_802928DC(Item_GObj* gobj) {}
 
 /// #it_802928E0
 
 /// #it_8029290C
 
-bool it_80292934(void)
+bool it_80292934(Item_GObj* gobj)
 {
     return false;
 }
@@ -41,12 +42,12 @@ bool it_80292934(void)
 
 /// #it_80292A5C
 
-bool it_80292A84(void)
+bool it_80292A84(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_80292A8C(void) {}
+void it_80292A8C(Item_GObj* gobj) {}
 
 /// #it_80292A90
 
@@ -62,12 +63,12 @@ void it_80292A8C(void) {}
 
 /// #it_80292C08
 
-bool it_80292C30(void)
+bool it_80292C30(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_80292C38(void) {}
+void it_80292C38(Item_GObj* gobj) {}
 
 /// #it_80292C3C
 
@@ -83,3 +84,16 @@ void it_80292D28(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F5FF0[] = {
+    { -1, it_802928D4, it_802928DC, it_802928E0 },
+    { -1, it_80292934, it_8029293C, it_8029296C },
+    { -1, it_80292A84, it_80292A8C, NULL },
+    { 0, it_80292A84, it_80292A8C, NULL },
+    { 1, it_80292A84, it_80292A8C, NULL },
+    { 2, it_80292A84, it_80292A8C, NULL },
+    { 3, it_80292A84, it_80292A8C, NULL },
+    { 4, it_80292934, it_80292B54, it_80292BA0 },
+    { 4, it_80292934, it_80292B54, it_80292AE8 },
+    { -1, it_80292C30, it_80292C38, it_80292C3C },
+};

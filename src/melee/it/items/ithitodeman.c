@@ -1,3 +1,4 @@
+#include "ithitodeman.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -22,7 +23,7 @@ void it_802D43AC(void) {}
 
 /// #it_802D472C
 
-bool it_802D48A8(void)
+bool it_802D48A8(Item_GObj* gobj)
 {
     return false;
 }
@@ -35,7 +36,7 @@ bool it_802D48A8(void)
 
 /// #it_802D4B14
 
-bool it_802D4B48(void)
+bool it_802D4B48(Item_GObj* gobj)
 {
     return false;
 }
@@ -85,7 +86,13 @@ void it_802D4F58(Item_GObj* gobj, Item_GObj* ref_gobj)
 
 void it_802D5044(void) {}
 
-bool it_802D5048(void)
+bool it_802D5048(Item_GObj* gobj)
 {
     return false;
 }
+
+ItemStateTable it_803F8128[] = {
+    { 0, it_802D4564, it_802D472C, it_802D48A8 },
+    { 1, it_802D49E8, it_802D4B14, it_802D4B48 },
+    { -1, it_802D4BB8, it_802D4BDC, it_802D4C4C },
+};

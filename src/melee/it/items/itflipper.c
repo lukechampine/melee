@@ -1,3 +1,4 @@
+#include "itflipper.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -17,18 +18,18 @@
 
 /// #it_80290E78
 
-bool it_80290EC8(void)
+bool it_80290EC8(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_80290ED0(void) {}
+void it_80290ED0(Item_GObj* gobj) {}
 
 /// #it_80290ED4
 
 /// #it_80290F00
 
-bool it_80290F28(void)
+bool it_80290F28(Item_GObj* gobj)
 {
     return false;
 }
@@ -39,12 +40,12 @@ bool it_80290F28(void)
 
 /// #it_80290F8C
 
-bool it_80290FB4(void)
+bool it_80290FB4(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_80290FBC(void) {}
+void it_80290FBC(Item_GObj* gobj) {}
 
 /// #it_80290FC0
 
@@ -84,12 +85,12 @@ void it_80290FBC(void) {}
 
 /// #it_80291B58
 
-bool it_80291B80(void)
+bool it_80291B80(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_80291B88(void) {}
+void it_80291B88(Item_GObj* gobj) {}
 
 /// #it_80291B8C
 
@@ -97,3 +98,13 @@ void it_80291BC0(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F5EA8[] = {
+    { -1, it_80290EC8, it_80290ED0, it_80290ED4 },
+    { -1, it_80290F28, it_80290F30, it_80290F60 },
+    { -1, it_80290FB4, it_80290FBC, NULL },
+    { 0, it_80291068, it_802910A8, it_80291188 },
+    { -1, it_80291B80, it_80291B88, it_80291B8C },
+    { 1, it_802914C8, it_80291570, it_802915B4 },
+    { 2, it_8029151C, it_80291570, it_802915B4 },
+};

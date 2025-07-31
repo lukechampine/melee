@@ -1,3 +1,4 @@
+#include "itbombhei.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -15,13 +16,13 @@
 
 /// #it_8027DC74
 
-void it_8027DDE8(void) {}
+void it_8027DDE8(Item_GObj* gobj) {}
 
 /// #it_8027DDEC
 
 /// #it_8027DE18
 
-bool it_8027E018(void)
+bool it_8027E018(Item_GObj* gobj)
 {
     return false;
 }
@@ -34,7 +35,7 @@ bool it_8027E018(void)
 
 /// #it_8027E3E4
 
-void it_8027E644(void) {}
+void it_8027E644(Item_GObj* gobj) {}
 
 /// #it_8027E648
 
@@ -42,7 +43,7 @@ void it_8027E644(void) {}
 
 /// #it_8027EB7C
 
-void it_8027EDC0(void) {}
+void it_8027EDC0(Item_GObj* gobj) {}
 
 /// #it_8027EDC4
 
@@ -50,7 +51,7 @@ void it_8027EDC0(void) {}
 
 /// #it_8027EFD0
 
-void it_8027F26C(void) {}
+void it_8027F26C(Item_GObj* gobj) {}
 
 /// #it_8027F270
 
@@ -58,7 +59,7 @@ void it_8027F26C(void) {}
 
 /// #it_8027F5E8
 
-void it_8027F89C(void) {}
+void it_8027F89C(Item_GObj* gobj) {}
 
 /// #it_8027F8A0
 
@@ -66,7 +67,7 @@ void it_8027F89C(void) {}
 
 /// #it_8027FC44
 
-void it_8027FC78(void) {}
+void it_8027FC78(Item_GObj* gobj) {}
 
 /// #it_8027FC7C
 
@@ -100,21 +101,21 @@ void it_8027FC78(void) {}
 
 /// #it_80280E70
 
-void it_80280E90(void) {}
+void it_80280E90(Item_GObj* gobj) {}
 
-bool it_80280E94(void)
+bool it_80280E94(Item_GObj* gobj)
 {
     return false;
 }
 
 /// #it_80280E9C
 
-bool it_80281030(void)
+bool it_80281030(Item_GObj* gobj)
 {
     return false;
 }
 
-void it_80281038(void) {}
+void it_80281038(Item_GObj* gobj) {}
 
 /// #it_8028103C
 
@@ -130,3 +131,19 @@ void it_80281144(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F54D8[] = {
+    { -1, it_8027DC74, it_8027DDE8, it_8027DDEC },
+    { -1, it_8027E018, it_8027E020, it_8027E050 },
+    { 0, it_8027EFD0, it_8027F26C, it_8027F270 },
+    { 0, it_8027EB7C, it_8027EDC0, it_8027EDC4 },
+    { 6, it_8027F5E8, it_8027F89C, it_8027F8A0 },
+    { 4, it_8027FC44, it_8027FC78, it_8027FC7C },
+    { 4, it_8028000C, it_80280030, it_80280338 },
+    { 1, it_8027E3E4, it_8027E644, NULL },
+    { 4, it_8027E3E4, it_8027E644, NULL },
+    { 2, it_802806CC, it_80280928, it_80280B18 },
+    { 5, it_802806CC, it_80280928, it_80280B18 },
+    { 3, it_80280E70, it_80280E90, it_80280E94 },
+    { -1, it_80281030, it_80281038, it_8028103C },
+};

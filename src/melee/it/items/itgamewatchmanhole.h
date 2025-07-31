@@ -10,4 +10,5 @@
 /* 2C68D8 */ void it_802C68D8(Item_GObj*, Item_GObj*);
 /* 3F78D8 */ extern ItemStateTable it_803F78D8[];
 
+/* 2C6808 */ bool it_802C6808(Item_GObj* gobj);
 #endif

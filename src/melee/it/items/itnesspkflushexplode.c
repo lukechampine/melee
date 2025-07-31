@@ -1,3 +1,4 @@
+#include "itnesspkflushexplode.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -5,8 +6,6 @@
 
 #include "it/inlines.h"
 #include "it/it_26B1.h"
-
-/* 2AFD44 */ static bool it_802AFD44(void);
 
 /// #it_802AF940
 
@@ -22,7 +21,7 @@ void it_802AFD2C(Item_GObj* gobj)
     it->x40_vel.z = it->x40_vel.y = it->x40_vel.z = 0;
 }
 
-bool it_802AFD44(void)
+bool it_802AFD44(Item_GObj* gobj)
 {
     return false;
 }
@@ -51,3 +50,7 @@ void it_802AFD6C(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F6F40[] = {
+    { 0, it_802AFBA4, it_802AFD2C, it_802AFD44 },
+};

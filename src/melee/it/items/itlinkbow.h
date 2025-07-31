@@ -15,4 +15,10 @@
 /* 2AF920 */ void it_802AF920(Item_GObj*, Item_GObj*);
 /* 3F6E98 */ extern ItemStateTable it_803F6E98[];
 
+/* 2AF64C */ bool it_802AF64C(Item_GObj* gobj);
+/* 2AF844 */ void it_802AF844(Item_GObj* gobj);
+/* 2AF848 */ bool it_802AF848(Item_GObj* gobj);
+/* 2AF90C */ bool it_802AF90C(Item_GObj* gobj);
+/* 2AF914 */ void it_802AF914(Item_GObj* gobj);
+/* 2AF918 */ bool it_802AF918(Item_GObj* gobj);
 #endif

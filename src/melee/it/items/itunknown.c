@@ -12,7 +12,7 @@ void it_802CE7CC(void) {}
 
 /// #it_802CE870
 
-bool it_802CE8C8(void)
+bool it_802CE8C8(Item_GObj* gobj)
 {
     return false;
 }
@@ -21,9 +21,9 @@ bool it_802CE8C8(void)
 
 /// #it_802CEB9C
 
-void it_802CEC18(void) {}
+void it_802CEC18(Item_GObj* gobj) {}
 
-bool it_802CEC1C(void)
+bool it_802CEC1C(Item_GObj* gobj)
 {
     return false;
 }
@@ -55,3 +55,9 @@ bool it_802CF3D8(void)
 {
     return false;
 }
+
+ItemStateTable it_803F7D60[] = {
+    { 0, it_802CE7F0, it_802CE870, it_802CE8C8 },
+    { 1, it_802CEB9C, it_802CEC18, it_802CEC1C },
+    { -1, it_802CEC88, it_802CECAC, it_802CED2C },
+};

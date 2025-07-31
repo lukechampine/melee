@@ -1,3 +1,4 @@
+#include "itlizardon.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -76,3 +77,10 @@ bool it_802CC5CC(Item_GObj* arg0)
 /// #it_802CC684
 
 /// #it_802CC6C4
+
+ItemStateTable it_803F7BC0[] = {
+    { 0, it_802CC160, it_802CC184, it_802CC1A4 },
+    { 1, it_802CB9E0, it_802CBA20, it_802CBA5C },
+    { 2, it_802CBB84, it_802CBC9C, it_802CBCD8 },
+    { 3, it_802CC030, it_802CC064, it_802CC0A0 },
+};

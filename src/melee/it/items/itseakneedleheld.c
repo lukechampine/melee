@@ -10,9 +10,9 @@
 
 /// #it_802B1AD4
 
-void it_802B1C34(void) {}
+void it_802B1C34(Item_GObj* gobj) {}
 
-bool it_802B1C38(void)
+bool it_802B1C38(Item_GObj* gobj)
 {
     return false;
 }
@@ -21,3 +21,7 @@ void it_802B1C40(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F70A8[] = {
+    { -1, it_802B1AD4, it_802B1C34, it_802B1C38 },
+};

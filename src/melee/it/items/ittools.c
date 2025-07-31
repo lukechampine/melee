@@ -18,7 +18,7 @@
 
 /// #it_802EF3C4
 
-void it_802EF468(void) {}
+void it_802EF468(Item_GObj* gobj) {}
 
 /// #it_802EF46C
 
@@ -40,3 +40,16 @@ void it_802EFA24(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F9260[] = {
+    { 0, it_802EF128, it_802EF27C, it_802EF2BC },
+    { 1, it_802EF128, it_802EF27C, it_802EF2BC },
+    { 2, it_802EF128, it_802EF27C, it_802EF2BC },
+    { 3, it_802EF128, it_802EF27C, it_802EF2BC },
+    { 4, it_802EF128, it_802EF27C, it_802EF2BC },
+    { 5, it_802EF3C4, it_802EF468, it_802EF46C },
+    { 6, it_802EF3C4, it_802EF468, it_802EF46C },
+    { 7, it_802EF3C4, it_802EF468, it_802EF46C },
+    { 8, it_802EF3C4, it_802EF468, it_802EF46C },
+    { 9, it_802EF3C4, it_802EF468, it_802EF46C },
+};

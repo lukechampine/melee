@@ -1,3 +1,4 @@
+#include "itstarrodstar.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -11,7 +12,7 @@
 
 /// #it_80298ACC
 
-void it_80298BAC(void) {}
+void it_80298BAC(Item_GObj* gobj) {}
 
 /// #it_80298BB0
 
@@ -43,3 +44,7 @@ void it_80298DCC(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F6530[] = {
+    { 0, it_80298ACC, it_80298BAC, it_80298BB0 },
+};

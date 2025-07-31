@@ -1,3 +1,4 @@
+#include "itlucky.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -17,7 +18,7 @@
 
 /// #it_802D53AC
 
-void it_802D53F0(void) {}
+void it_802D53F0(Item_GObj* gobj) {}
 
 /// #it_802D53F4
 
@@ -25,7 +26,7 @@ void it_802D53F0(void) {}
 
 /// #it_802D546C
 
-bool it_802D54C4(void)
+bool it_802D54C4(Item_GObj* gobj)
 {
     return false;
 }
@@ -34,7 +35,7 @@ bool it_802D54C4(void)
 
 /// #it_802D54FC
 
-bool it_802D5528(void)
+bool it_802D5528(Item_GObj* gobj)
 {
     return false;
 }
@@ -75,7 +76,7 @@ void it_802D58BC(void) {}
 
 /// #it_802D59A8
 
-bool it_802D59D0(void)
+bool it_802D59D0(Item_GObj* gobj)
 {
     return false;
 }
@@ -96,3 +97,13 @@ void it_802D5A9C(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F8190[] = {
+    { -1, it_802D55DC, it_802D5600, it_802D5620 },
+    { -1, it_802D54C4, it_802D54CC, it_802D54FC },
+    { 1, it_802D53AC, it_802D53F0, it_802D53F4 },
+    { 2, it_802D53AC, it_802D53F0, it_802D53F4 },
+    { 3, it_802D53AC, it_802D53F0, it_802D53F4 },
+    { 0, it_802D54C4, it_802D54CC, it_802D54FC },
+    { -1, it_802D5528, it_802D5530, NULL },
+};

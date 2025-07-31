@@ -118,3 +118,9 @@ void it_802C65C4(Item_GObj* item_gobj, Item_GObj* ref_gobj) {
     it_8026B894(item_gobj, ref_gobj);
 }
 
+ItemStateTable it_803F7898[] = {
+    { 0, it_802C64D0, NULL, NULL },
+    { 1, it_802C64D0, NULL, NULL },
+    { 2, it_802C653C, NULL, NULL },
+    { 3, it_802C64D0, NULL, NULL },
+};

@@ -43,3 +43,11 @@
 /// #it_802C0010
 
 /// #it_802C016C
+
+#include "itnessyoyo.h"
+ItemStateTable it_803F7558[] = {
+    { -1, it_802BEE88, it_802BEB38, NULL },
+    { -1, it_802BEE88, it_802BEB5C, NULL },
+    { -1, it_802BEE88, it_802BEC58, NULL },
+    { -1, it_802BEE88, it_802BED54, NULL },
+};

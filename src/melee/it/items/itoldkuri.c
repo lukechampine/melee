@@ -1,3 +1,4 @@
+#include "itoldkuri.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -7,7 +8,7 @@
 
 /// #it_802D747C
 
-bool it_802D74D0(void)
+bool it_802D74D0(Item_GObj* gobj)
 {
     return false;
 }
@@ -50,7 +51,7 @@ bool it_802D74D0(void)
 
 /// #it_802D7C58
 
-void it_802D7CB0(void) {}
+void it_802D7CB0(Item_GObj* gobj) {}
 
 /// #it_802D7CB4
 
@@ -76,7 +77,7 @@ void it_802D7CB0(void) {}
 
 /// #it_802D8190
 
-void it_802D81D8(void) {}
+void it_802D81D8(Item_GObj* gobj) {}
 
 /// #it_802D81DC
 
@@ -92,7 +93,7 @@ void it_802D81D8(void) {}
 
 /// #it_802D8330
 
-void it_802D8378(void) {}
+void it_802D8378(Item_GObj* gobj) {}
 
 /// #it_802D837C
 
@@ -107,3 +108,18 @@ void it_802D8378(void) {}
 /// #it_802D848C
 
 /// #it_802D84D8
+
+ItemStateTable it_803F8320[] = {
+    { -1, it_802D74D0, it_802D74D8, it_802D7550 },
+    { 0, it_802D75F8, it_802D7670, it_802D76EC },
+    { 1, it_802D77C8, it_802D788C, it_802D795C },
+    { 0, it_802D7A18, it_802D7A60, it_802D7A90 },
+    { 1, it_802D7B3C, it_802D7B84, it_802D7BB4 },
+    { 3, it_802D7C58, it_802D7CB0, NULL },
+    { 4, it_802D7D7C, it_802D7DC4, it_802D7DF4 },
+    { 2, it_802D8190, it_802D81D8, it_802D81DC },
+    { 2, it_802D8240, it_802D8274, it_802D82A4 },
+    { 3, it_802D7E18, it_802D7EAC, it_802D7ED4 },
+    { 3, it_802D8330, it_802D8378, it_802D837C },
+    { 3, it_802D8408, it_802D8450, it_802D846C },
+};

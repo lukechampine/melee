@@ -1,3 +1,4 @@
+#include "itmatadogas.h"
 #include <platform.h>
 #include <placeholder.h>
 
@@ -9,13 +10,13 @@ void it_802CB0F4(void) {}
 
 /// #it_802CB118
 
-void it_802CB14C(void) {}
+void it_802CB14C(Item_GObj* gobj) {}
 
 /// #it_802CB150
 
 /// #it_802CB17C
 
-void it_802CB280(void) {}
+void it_802CB280(Item_GObj* gobj) {}
 
 /// #it_802CB284
 
@@ -43,7 +44,13 @@ void it_802CB280(void) {}
 
 /// #it_802CB844
 
-bool it_802CB8A4(void)
+bool it_802CB8A4(Item_GObj* gobj)
 {
     return false;
 }
+
+ItemStateTable it_803F7B58[] = {
+    { 0, it_802CB118, it_802CB14C, it_802CB150 },
+    { 1, it_802CB17C, it_802CB280, it_802CB284 },
+    { -1, it_802CB3B4, it_802CB3D8, it_802CB4C8 },
+};

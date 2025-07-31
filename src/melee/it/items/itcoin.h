@@ -23,4 +23,21 @@
 /* 2F2094 */ Item_GObj* it_802F2094(HSD_GObj*, Vec3*, int, int);
 /* 3F93C8 */ extern ItemStateTable it_803F93C8[];
 
+/* 2F15B0 */ bool it_802F15B0(Item_GObj* gobj);
+/* 2F15B8 */ void it_802F15B8(Item_GObj* gobj);
+/* 2F1604 */ bool it_802F1604(Item_GObj* gobj);
+/* 2F1850 */ bool it_802F1850(Item_GObj* gobj);
+/* 2F1858 */ void it_802F1858(Item_GObj* gobj);
+/* 2F185C */ bool it_802F185C(Item_GObj* gobj);
+/* 2F18E4 */ bool it_802F18E4(Item_GObj* gobj);
+/* 2F18EC */ void it_802F18EC(Item_GObj* gobj);
+/* 2F1C68 */ bool it_802F1C68(Item_GObj* gobj);
+/* 2F1C70 */ void it_802F1C70(Item_GObj* gobj);
+/* 2F1CB4 */ bool it_802F1CB4(Item_GObj* gobj);
+/* 2F1EE4 */ bool it_802F1EE4(Item_GObj* gobj);
+/* 2F1EEC */ void it_802F1EEC(Item_GObj* gobj);
+/* 2F1F1C */ bool it_802F1F1C(Item_GObj* gobj);
+/* 2F1FD4 */ bool it_802F1FD4(Item_GObj* gobj);
+/* 2F1FDC */ void it_802F1FDC(Item_GObj* gobj);
+/* 2F1FE0 */ bool it_802F1FE0(Item_GObj* gobj);
 #endif

@@ -10,4 +10,7 @@
 /* 2F2BDC */ void it_802F2BDC(Item_GObj*, HSD_GObj*);
 /* 3F9470 */ extern ItemStateTable it_803F9470[];
 
+/* 2F2AB0 */ bool it_802F2AB0(Item_GObj* gobj);
+/* 2F2AE8 */ void it_802F2AE8(Item_GObj* gobj);
+/* 2F2BA8 */ bool it_802F2BA8(Item_GObj* gobj);
 #endif

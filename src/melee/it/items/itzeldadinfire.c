@@ -3,8 +3,6 @@
 #include "it/inlines.h"
 #include "it/it_26B1.h"
 
-/* 2C4434 */ static bool it_802C4434(void);
-
 Fighter_GObj* it_802C3AF0(Item_GObj* arg0)
 {
     return GET_ITEM(arg0)->owner;
@@ -34,7 +32,7 @@ void it_802C4364(Item_GObj* gobj)
 
 /// #it_802C437C
 
-bool it_802C4434(void)
+bool it_802C4434(Item_GObj* gobj)
 {
     return false;
 }
@@ -55,3 +53,8 @@ void it_802C4560(Item_GObj* gobj, Item_GObj* ref_gobj)
 {
     it_8026B894(gobj, ref_gobj);
 }
+
+ItemStateTable it_803F76F8[] = {
+    { 0, it_802C3E94, it_802C4208, it_802C437C },
+    { 1, it_802C40A4, it_802C4364, it_802C4434 },
+};

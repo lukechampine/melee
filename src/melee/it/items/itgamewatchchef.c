@@ -15,7 +15,8 @@
 
 /// #it_802C87B4
 
-void it_802C8828(void) {}
+#include "itgamewatchchef.h"
+void it_802C8828(Item_GObj* gobj) {}
 
 /// #it_802C882C
 
@@ -30,3 +31,8 @@ void it_802C8828(void) {}
 /// #it_802C8A28
 
 /// #it_802C8B08
+
+ItemStateTable it_803F79E0[] = {
+    { 0, it_802C8540, it_802C8690, it_802C86D0 },
+    { 1, it_802C87B4, it_802C8828, it_802C882C },
+};
