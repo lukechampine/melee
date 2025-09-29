@@ -6,6 +6,14 @@
 #include "it/item.h"
 #include "it/inlines.h"
 
+bool itKyasarinegg_UnkMotion0_Coll(Item_GObj* gobj)
+{
+    if (it_8026DAA8(gobj) & 0xF) {
+        it_802EFCC0(gobj);
+    }
+    return 0;
+}
+
 void itKyasarinegg_UnkMotion1_Coll(Item_GObj* gobj)
 {
     it_8026DFB0(gobj);

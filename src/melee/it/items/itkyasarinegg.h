@@ -14,6 +14,8 @@ bool it_2725_Logic28_Reflected(Item_GObj*);
 bool it_2725_Logic28_Clanked(Item_GObj*);
 bool it_2725_Logic28_ShieldBounced(Item_GObj*);
 bool it_2725_Logic28_HitShield(Item_GObj*);
+void it_802EFCC0(Item_GObj* gobj);
 void it_802F0320(Item_GObj*, Item_GObj*);
+bool itKyasarinegg_UnkMotion0_Coll(Item_GObj* gobj);
 void itKyasarinegg_UnkMotion1_Coll(Item_GObj* gobj);
 void itKyasarinegg_UnkMotion4_Anim(Item_GObj* gobj);

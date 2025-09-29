@@ -2,6 +2,8 @@
 
 #include "it/it_26B1.h"
 #include "it/it_2725.h"
+#include "it/inlines.h"
+#include "it/it_266F.h"
 
 /// #it_802EEFA8
 
@@ -17,7 +19,15 @@ bool it_2725_Logic22_DmgDealt(Item_GObj* gobj)
 
 /// #itTools_UnkMotion4_Phys
 
-/// #itTools_UnkMotion4_Coll
+bool itTools_UnkMotion4_Coll(Item_GObj* gobj)
+{
+    Item* ip = GET_ITEM(gobj);
+    PAD_STACK(8);
+    if (((ip->x40_vel.x != 0.0f) || (ip->x40_vel.y != 0.0f)) && (it_8026DAA8(gobj) & 3)) {
+        it_802EF320(gobj);
+    }
+    return 0;
+}
 
 /// #it_802EF320
 
