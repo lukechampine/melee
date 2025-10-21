@@ -334,6 +334,8 @@
 /* 0F91D4 */ void ftKb_MrSpecialN_IASA(ftKb_GObj* gobj);
 /* 0F9204 */ void ftKb_MrSpecialN_Phys(ftKb_GObj* gobj);
 /* 0F9224 */ void ftKb_MrSpecialN_Coll(ftKb_GObj* gobj);
+/* 0F9260 */ void ftKb_MrSpecialN_GroundToAir(ftKb_GObj* gobj);
+/* 0F9294 */ void ftKb_MrSpecialAirN_AirToGround(ftKb_GObj* gobj);
 /* 0F93CC */ void ftKb_SpecialNMr_800F93CC(ftKb_GObj* gobj);
 /* 0F9454 */ void ftKb_MrSpecialAirN_Anim(ftKb_GObj* gobj);
 /* 0F9490 */ void ftKb_MrSpecialAirN_IASA(ftKb_GObj* gobj);
