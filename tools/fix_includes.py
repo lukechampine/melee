@@ -135,8 +135,7 @@ def search_headers_for_function(name: str) -> Optional[Path]:
             continue
     if not candidates:
         return None
-    candidates.sort(key=lambda p: ("/melee/it/" not in str(p), len(str(p))))
-    return candidates[0]
+    return min(candidates, key=lambda p: len(str(p)))
 
 
 def parse_existing_includes(src_text: str) -> Tuple[List[str], Set[str], Set[str]]:
